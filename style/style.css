@@ -1,0 +1,16 @@
+:root{
+--text-color: #ffffff;
+--card-front-color: #ffffff;
+--card-back-color: #ffffff;
+}
+body {
+    background-image: url(img/o_clube_das_winx_capa.jpg);
+    font-family: tomorrow;
+}
+.cartao__conteudo{
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
